@@ -12,6 +12,10 @@
   font: inherit;
   vertical-align: baseline;
 }
+*::selection {
+  background: var(--select);
+  color: var(--white);
+}
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -28,7 +32,9 @@ section {
 }
 body {
   line-height: 1;
+  overflow-x: hidden;
 }
+
 ol,
 ul {
   list-style: none;
