@@ -1,0 +1,76 @@
+:host {
+  .deck {
+    color: var(--white);
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url(../../../assets/wallpaper_blur.png);
+
+    &__header {
+      text-align: center;
+      h1 {
+        font-family: "Kaisei Decol", serif;
+        text-align: center;
+        font-weight: 500;
+        font-size: 3.5rem;
+        text-transform: uppercase;
+      }
+      button {
+        background: var(--black);
+        padding: 0.7rem;
+        border: 2px solid var(--sub-text);
+        border-radius: 0.3rem;
+        text-transform: uppercase;
+        color: var(--sub-text);
+        font-family: "Poppins", sans-serif;
+        letter-spacing: 1px;
+
+        &:hover {
+          background: var(--sub-text);
+          color: var(--white);
+        }
+      }
+    }
+
+    &__container {
+      background: var(--contrast-wallpaper);
+      width: 80vw;
+      border-radius: 14px;
+    }
+    &__card {
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+      img {
+        width: 5rem;
+      }
+    }
+  }
+
+  // CHOSEN CARD
+  .deck__figure {
+    img {
+      width: 8rem;
+    }
+  }
+
+  .deck__container--choice-card {
+    background: var(--contrast-wallpaper);
+    width: 45rem;
+    border-radius: 14px;
+    font-family: "Poppins", sans-serif;
+
+    .card-text {
+      p {
+        width: 30rem;
+        text-indent: 0.5rem;
+
+        font-size: 14px;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}
