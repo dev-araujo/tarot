@@ -1,12 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-
+import { DeckComponent } from './deck/deck.component';
 
 @NgModule({
-  declarations: [],
-  imports: [
-    CommonModule
-  ]
+  declarations: [DeckComponent],
+  exports: [DeckComponent],
+  imports: [CommonModule],
 })
-export class SharedModule { }
+export class SharedModule {}

@@ -1,0 +1,6 @@
+<section>
+  <section *ngFor="let item of deck">
+    <p>{{ item.name }}</p>
+    <img [src]="item.frontside" [alt]="item.name" />
+  </section>
+</section>
