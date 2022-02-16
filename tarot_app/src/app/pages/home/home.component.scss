@@ -1,0 +1,54 @@
+:host {
+  .home {
+    background-image: url(../../../assets/wallpaper_blur.png);
+
+    width: 100vw;
+    height: 100vh;
+    color: var(--white);
+
+    &__container {
+      background-color: var(--contrast-wallpaper);
+
+      width: 100vw;
+      height: 100vh;
+    }
+
+    &__content {
+      width: 38rem;
+      font-family: "Kaisei Decol", serif;
+      text-align: center;
+      font-weight: 400;
+      h1 {
+        font-size: 3.5rem;
+        text-transform: capitalize;
+      }
+      h3,
+      button {
+        text-transform: uppercase;
+        color: var(--sub-text);
+        font-family: "Poppins", sans-serif;
+        letter-spacing: 1px;
+      }
+      h3 {
+        font-size: 1.1rem;
+      }
+      button {
+        background: none;
+        padding: 0.7rem;
+        border: 2px solid var(--sub-text);
+        border-radius: 0.3rem;
+
+        &:hover {
+          background: var(--sub-text);
+          color: var(--white);
+        }
+      }
+
+      @media (max-width: 362px) {
+        h1 {
+          font-size: 3rem;
+        }
+      }
+    }
+  }
+}
