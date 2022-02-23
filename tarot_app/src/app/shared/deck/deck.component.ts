@@ -6,6 +6,7 @@ import { DataService } from '../../service/data.service';
   styleUrls: ['./deck.component.scss'],
 })
 export class DeckComponent implements OnInit {
+ 
   public deck: any;
   public turnCards: boolean | any = true;
   public options: any = {
