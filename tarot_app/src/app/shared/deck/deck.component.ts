@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../../service/data.service';
+import { shuffle } from '../utils/shuffle';
 @Component({
   selector: 'app-deck',
   templateUrl: './deck.component.html',
   styleUrls: ['./deck.component.scss'],
 })
 export class DeckComponent implements OnInit {
- 
   public deck: any;
   public turnCards: boolean | any = true;
   public options: any = {
@@ -47,12 +47,6 @@ export class DeckComponent implements OnInit {
     });
   }
 
-  getRandom(arr: []) {
-    return arr
-      .map((value: any) => ({ value, sort: Math.random() }))
-      .sort((a: any, b: any) => a.sort - b.sort)
-      .map(({ value }: any) => value);
-  }
 
   getOneCard(cardName: string) {
     this.deck = this.deck
@@ -77,7 +71,7 @@ export class DeckComponent implements OnInit {
 
     if (this.turnCards) {
       this.turnCards = false;
-      this.deck = this.getRandom(this.deck);
+      this.deck = shuffle(this.deck);
     }
 
     if (filter.length > 0) {
