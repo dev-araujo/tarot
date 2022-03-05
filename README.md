@@ -17,9 +17,8 @@
  - **O resultado pode ser conferido :arrow_right: [**AQUI**](https://tarottest.dev-araujo.repl.co/)**
 <h1 align="center">
 
- 
-  
-  ![tela1](https://user-images.githubusercontent.com/97068163/154370004-ff26ecdc-718c-4701-983e-69686b814532.png)
+ ![tarot](https://user-images.githubusercontent.com/97068163/156898220-b505cfd1-e44f-4e12-ac64-4ff2d38ac998.png)
+
 
 ![tela2](https://user-images.githubusercontent.com/97068163/154369975-29978047-f32f-4784-b1c4-a70ee0e87fa0.png)
 
