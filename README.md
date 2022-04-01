@@ -14,7 +14,7 @@
 ---
 
 ## ✨Resultado 
- - **O resultado pode ser conferido :arrow_right: [**AQUI**](https://tarottest.dev-araujo.repl.co/)**
+ - **O resultado pode ser conferido :arrow_right: [**AQUI**](https://testtarottest.dev-araujo.repl.co/)**
 <h1 align="center">
 
  ![tarot](https://user-images.githubusercontent.com/97068163/156898220-b505cfd1-e44f-4e12-ac64-4ff2d38ac998.png)
